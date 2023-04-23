@@ -23,7 +23,7 @@ const greeting = {
   username: "Dylan Aron",
   title: "Hi I'm Dylan!",
   subTitle: emoji(
-    "A passionate Game Developer 🚀 with experience developing Mobile games, VR games, and PC games through Unity and Unreal with C# and C++."
+    "A passionate Game Developer 🚀 with experience developing Mobile games, VR games, and PC games through Unity and Unreal with C# & C++."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button

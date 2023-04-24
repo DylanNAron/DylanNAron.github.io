@@ -20,8 +20,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Dylan Aron",
-  title: "Hi I'm Dylan!",
+  username: "Dylan",
+  title: "Hi I'm Dylan Aron!",
   subTitle: emoji(
     "A passionate Game Developer 🚀 with experience developing Mobile games, VR games, and PC games through Unity and Unreal with C# & C++."
   ),
@@ -37,6 +37,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/dylanaron/",
   gmail: "arondylan72@gmail.com",
   twitter: "https://twitter.com/McSnagz",
+  itchio: "https://dylanaron.itch.io/",
   //gitlab: "https://gitlab.com/saadpasta",
   //facebook: "https://www.facebook.com/saad.pasta7",
   //medium: "https://medium.com/@saadpasta",

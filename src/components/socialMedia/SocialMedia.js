@@ -116,6 +116,18 @@ export default function socialMedia() {
         </a>
       ) : null}
 
+      {socialMediaLinks.itchio ? (
+        <a
+          href={socialMediaLinks.itchio}
+          className="icon-button stack-overflow"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-itch-io"></i>
+          <span></span>
+        </a>
+      ) : null}
+
       {socialMediaLinks.kaggle ? (
         <a
           href={socialMediaLinks.kaggle}

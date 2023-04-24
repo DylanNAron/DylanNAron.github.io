@@ -58,6 +58,13 @@
   transform-origin: 70% 70%;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
+}
+
 @keyframes wave {
   0% {
     transform: rotate(0deg);

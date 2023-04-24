@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Dylan",
-  title: "Hi I'm Dylan Aron!",
+  title: "I'm Dylan Aron!",
   subTitle: emoji(
     "A passionate Game Developer 🚀 with experience developing Mobile games, VR games, and PC games through Unity and Unreal with C# & C++."
   ),
@@ -166,8 +166,8 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Here are some cool projects I have worked on!",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
@@ -316,7 +316,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "",
   number: "860-990-3005",
   email_address: "arondylan72@gmail.com"
 };

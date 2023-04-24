@@ -170,25 +170,13 @@ const bigProjects = {
   subtitle: "Here are some cool projects I have worked on!",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/gameEngine.webp"),
+      projectName: "Custom Data Driven Game Engine C++",
+      projectDesc: "Developed a custom game engine in C++.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View Repo",
+          url: "https://github.com/DylanNAron/FieaGameEngine"
         }
       ]
     },
@@ -227,32 +215,18 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Custom Data Driven Game Engine",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Developed a custom game engine in C++.",
+      image: require("./assets/images/gameEngine.webp"),
+      imageAlt: "GameEngineC++",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Repo",
+          url: "https://github.com/DylanNAron/FieaGameEngine"
         }
       ]
     },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
   ],
   display: false // Set false to hide this section, defaults to true
 };

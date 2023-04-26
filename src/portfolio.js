@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Game Developer 🚀 with experience developing Mobile games, VR games, and PC games through Unity and Unreal with C# & C++."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1mjoFonypg0-0iq7XCpI_AYecW3IeFq9G/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 

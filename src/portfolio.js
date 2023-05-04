@@ -170,13 +170,24 @@ const bigProjects = {
   subtitle: "Here are some cool projects I have worked on!",
   projects: [
     {
-      image: require("./assets/images/gameEngine.webp"),
-      projectName: "Custom Data Driven Game Engine C++",
-      projectDesc: "Developed a custom game engine in C++.",
+      image: require("./assets/images/gameEngine.png"),
+      projectName: "Custom Game Engine C++",
+      projectDesc: "Developed a custom data driven game engine in C++. Implemented multiple design patterns to allow for deserialization and instantiation of objects written in Json.",
       footerLink: [
         {
           name: "View Repo",
           url: "https://github.com/DylanNAron/FieaGameEngine"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/TriWizard.png"),
+      projectName: "TriWizard VR DarkRide",
+      projectDesc: "Multiplayer VR Ride experience based off the Harry Potter TriWizard Cup. Lead the development for networking and proper replication of game play mechanics",
+      footerLink: [
+        {
+          name: "View Gameplay",
+          url: "https://www.youtube.com/watch?v=iGZBstzuAhg&ab_channel=Prodylan"
         }
       ]
     },

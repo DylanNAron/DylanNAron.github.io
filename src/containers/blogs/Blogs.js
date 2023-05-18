@@ -58,6 +58,9 @@ export default function Blogs() {
           >
             {blogSection.subtitle}
           </p>
+          {/* This is used to show my blog via embedded thingy */}
+          <div class='sk-ww-medium-publication-feed' data-embed-id='144294'></div><script src='https://widgets.sociablekit.com/medium-publication-feed/widget.js' async defer></script>
+
         </div>
         <div className="blog-main-div">
           <div className="blog-text-div">

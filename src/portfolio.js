@@ -197,49 +197,32 @@ const bigProjects = {
 
 // Achievement Section
 // Include certificates, talks etc
-
+//CHANGED TO GAMES SECTION
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: "Games",
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Check out some of my published games!",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Wrecking Balls!",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Mobile game where you dodge police AI and destroy a procedurally generated world. Developed on Unity in C#. Published to the iOS store",
+      image: require("./assets/images/WreckingBalls.png"),
+      imageAlt: "Wrecking Balls Image",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Play on Web",
+          url: "https://dylanaron.itch.io/angry-balls"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Custom Data Driven Game Engine",
-      subtitle:
-        "Developed a custom game engine in C++.",
-      image: require("./assets/images/gameEngine.webp"),
-      imageAlt: "GameEngineC++",
-      footerLink: [
-        {
-          name: "View Repo",
-          url: "https://github.com/DylanNAron/FieaGameEngine"
+          name: "Play on iOS",
+          url: "https://apps.apple.com/us/app/wrecking-balls/id1658626917"
         }
       ]
     },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -247,7 +230,7 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "Check out my blog posts for ongoing projects.",
+    "",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     // {

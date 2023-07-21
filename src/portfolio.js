@@ -221,6 +221,19 @@ const achievementSection = {
         }
       ]
     },
+    {
+      title: "Cecelia",
+      subtitle:
+        "FPS Adventure game where you work together with a colossal stone AI creature. Explore and survive the mysterious island. Developed in Unreal Engine 5 with C++",
+      image: require("./assets/images/cecelia.jpg"),
+      imageAlt: "Cecelia Image",
+      footerLink: [
+        {
+          name: "Play on Steam",
+          url: "https://store.steampowered.com/app/2507080/Cecelia/"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };

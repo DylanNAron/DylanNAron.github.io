@@ -23,7 +23,7 @@ const greeting = {
   username: 'Dylan',
   title: "I'm Dylan Aron!",
   subTitle: emoji(
-    'A passionate Game Developer 🚀 with experience developing Mobile games, VR games, and PC games through Unity and Unreal with C# & C++.'
+    'Passionate software engineer with over 3 years of experience and a Master’s degree in Interactive Entertainment. I specialize in gameplay development and have contributed to PC, mobile, and VR projects using Unity, Unreal Engine 5, C#, and C++.'
   ),
   resumeLink:
     'https://drive.google.com/file/d/1mjoFonypg0-0iq7XCpI_AYecW3IeFq9G/view?usp=sharing', // Set to empty to hide the button
@@ -207,6 +207,10 @@ const bigProjects = {
           name: 'View Repo',
           url: 'https://github.com/DylanNAron/SkateboardControllerPPP',
         },
+        {
+          name: 'View Demo Video',
+          url: 'https://www.youtube.com/watch?v=kybtRQHAj00&t=104s&ab_channel=Prodylan',
+        },
       ],
     },
   ],
@@ -222,19 +226,19 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: 'Wrecking Balls!',
+      title: 'Photo Finish Live',
       subtitle:
-        'Mobile game where you dodge police AI and destroy a procedurally generated world. Developed on Unity in C#. Published to the iOS store',
-      image: require('./assets/images/WreckingBalls.png'),
-      imageAlt: 'Wrecking Balls Image',
+        'Live service web3 horse racing game developed in Unity and C#, featuring full-stack development and real-time simulation with MongoDB and AWS integration.',
+      image: require('./assets/images/pfl.jpg'),
+      imageAlt: 'Photo Finish Image',
       footerLink: [
         {
-          name: 'Play on Web',
-          url: 'https://dylanaron.itch.io/angry-balls',
+          name: 'View Website',
+          url: 'https://photofinish.live/',
         },
         {
           name: 'Play on iOS',
-          url: 'https://apps.apple.com/us/app/wrecking-balls/id1658626917',
+          url: 'https://apps.apple.com/us/app/photo-finish-live/id6504777327',
         },
       ],
     },
@@ -252,6 +256,36 @@ const achievementSection = {
         {
           name: 'View Gameplay',
           url: 'https://www.youtube.com/watch?v=bjGuIKIlrc8&t=152s&ab_channel=Prodylan',
+        },
+      ],
+    },
+    {
+      title: 'Animal Cafe',
+      subtitle:
+        'Charming iOS cafe management game where players serve adorable animal customers, customize their cafe, and unlock new upgrades. Designed and developed with a focus on creativity and engaging gameplay.',
+      image: require('./assets/images/animalcafe.jpg'),
+      imageAlt: 'Wrecking Balls Image',
+      footerLink: [
+        {
+          name: 'Play on iOS',
+          url: 'https://apps.apple.com/tr/app/animal-cafe/id1616265085',
+        },
+      ],
+    },
+    {
+      title: 'Wrecking Balls!',
+      subtitle:
+        'Mobile game where you dodge police AI and destroy a procedurally generated world. Developed on Unity in C#. Published to the iOS store',
+      image: require('./assets/images/WreckingBalls.png'),
+      imageAlt: 'Wrecking Balls Image',
+      footerLink: [
+        {
+          name: 'Play on Web',
+          url: 'https://dylanaron.itch.io/angry-balls',
+        },
+        {
+          name: 'Play on iOS',
+          url: 'https://apps.apple.com/us/app/wrecking-balls/id1658626917',
         },
       ],
     },
